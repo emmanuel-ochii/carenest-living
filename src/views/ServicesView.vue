@@ -1,284 +1,228 @@
 <template>
   <main class="pt-20">
+
     <!-- Hero Banner -->
-    <section class="relative h-80 flex items-center justify-center">
+    <section class="relative h-[420px] flex items-center justify-center overflow-hidden">
       <img
-        src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&auto=format&fit=crop"
-        class="absolute inset-0 w-full h-full object-cover"
-        alt="Seniors enjoying activities"
+        src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&auto=format&fit=crop&q=85"
+        class="absolute inset-0 w-full h-full object-cover scale-105"
+        alt="Seniors enjoying a group activity at CareNest"
       />
-      <div class="absolute inset-0 bg-black/55"></div>
-      <div class="relative z-10 text-center text-white px-6">
-        <p class="text-emerald-400 uppercase tracking-widest font-semibold text-sm mb-3">
-          Everything You Need
+      <div class="absolute inset-0 bg-gradient-to-r from-stone-950/75 via-stone-900/50 to-transparent"></div>
+      <div class="relative z-10 text-left max-w-7xl w-full mx-auto px-6">
+        <p class="text-emerald-400 uppercase tracking-widest font-semibold text-sm mb-3">Everything You Need</p>
+        <h1 class="text-5xl md:text-6xl font-bold text-white mb-4"
+          style="font-family:'Playfair Display',serif">
+          Our Services
+        </h1>
+        <p class="text-stone-300 text-xl max-w-xl leading-relaxed">
+          Every service at CareNest is designed to support your independence, not replace it.
         </p>
-        <h1 class="text-5xl font-bold">Our Services</h1>
       </div>
     </section>
 
     <!-- What Is Supportive Living -->
     <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
-        <div class="rounded-2xl overflow-hidden shadow-lg">
-          <img
-            src="https://images.unsplash.com/photo-1447452001526-abe8a6bd7ac5?w=800&auto=format&fit=crop"
-            class="w-full h-96 object-cover"
-            alt="Peaceful garden walkway"
-          />
-        </div>
-        <div>
-          <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">
-            Understanding Our Model
-          </p>
-          <h2 class="text-4xl font-bold text-stone-800 mb-6">What Is Supportive Living?</h2>
-          <p class="text-stone-500 text-lg leading-relaxed mb-5">
-            Supportive living sits between fully independent home living and full-time nursing care.
-            It is designed for adults who are largely independent but benefit from having daily
-            services, a safe environment, and caring staff nearby.
-          </p>
-          <p class="text-stone-500 text-lg leading-relaxed mb-5">
-            At CareNest,
-            <strong class="text-stone-700">we do not provide on-site medical care</strong>. Instead,
-            we provide structured lifestyle support — dining, housekeeping, social programming, and
-            24/7 staff presence — while coordinating with external health professionals as needed.
-          </p>
-          <div class="bg-emerald-50 border-l-4 border-emerald-600 p-5 rounded-r-xl">
-            <p class="text-emerald-800 font-medium">
-              ✅ Perfect for seniors who want independence, community, and the reassurance of
-              support — without the clinical feel of a care home.
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div class="rounded-2xl overflow-hidden shadow-xl">
+            <img
+              src="https://images.unsplash.com/photo-1447452001526-abe8a6bd7ac5?w=900&auto=format&fit=crop&q=85"
+              class="w-full h-[420px] object-cover"
+              alt="Peaceful garden walkway at CareNest community"
+            />
+          </div>
+          <div>
+            <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">Our Approach</p>
+            <h2 class="text-4xl font-bold text-stone-800 mb-6 leading-tight"
+              style="font-family:'Playfair Display',serif">
+              What Is Supportive Living?
+            </h2>
+            <p class="text-stone-500 text-lg leading-relaxed mb-5">
+              Supportive living sits between fully independent home living and full-time nursing care.
+              It is designed for adults who are largely independent but benefit from daily services,
+              a safe environment, and caring staff nearby.
             </p>
+            <p class="text-stone-500 text-lg leading-relaxed mb-6">
+              At CareNest, <strong class="text-stone-700 font-semibold">we do not provide on-site medical care.</strong>
+              Instead we provide structured lifestyle support — dining, housekeeping, social programming,
+              and 24/7 staff presence — while coordinating with external health professionals as needed.
+            </p>
+            <div class="bg-emerald-50 border-l-4 border-emerald-600 p-5 rounded-r-xl">
+              <p class="text-emerald-800 font-medium leading-relaxed">
+                ✅ Perfect for seniors who want independence, community, and the reassurance of
+                support — without the clinical feel of a care home.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Full Services Grid -->
-    <section class="py-24 bg-stone-50">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-16">
-          <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">
-            Full Service List
-          </p>
-          <h2 class="text-4xl font-bold text-stone-800">Everything Included</h2>
-        </div>
-        <div class="grid md:grid-cols-2 gap-8">
-          <div
-            v-for="category in serviceCategories"
-            :key="category.title"
-            class="bg-white rounded-2xl p-8 shadow-sm"
-          >
-            <div class="flex items-center gap-4 mb-6">
-              <span class="text-4xl">{{ category.icon }}</span>
-              <h3 class="text-2xl font-bold text-stone-800">{{ category.title }}</h3>
-            </div>
+    <!-- Service Categories — Alternating Layout -->
+    <section class="bg-stone-50 py-24">
+      <div class="max-w-7xl mx-auto px-6 space-y-28">
+
+        <div
+          v-for="(category, index) in serviceCategories"
+          :key="category.title"
+          :class="['grid md:grid-cols-2 gap-16 items-center', index % 2 !== 0 ? 'md:flex md:flex-row-reverse' : '']"
+        >
+          <!-- Image -->
+          <div class="relative rounded-2xl overflow-hidden shadow-xl group">
+            <img
+              :src="category.image"
+              :alt="category.title"
+              class="w-full h-[380px] object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <span class="absolute bottom-4 left-4 bg-emerald-600 text-white text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full">
+              {{ category.tag }}
+            </span>
+          </div>
+
+          <!-- Content -->
+          <div :class="index % 2 !== 0 ? 'md:pr-4' : 'md:pl-4'">
+            <p class="text-emerald-600 font-semibold uppercase tracking-widest text-xs mb-3">{{ category.tag }}</p>
+            <h3 class="text-3xl font-bold text-stone-800 mb-4 leading-tight"
+              style="font-family:'Playfair Display',serif">
+              {{ category.title }}
+            </h3>
+            <p class="text-stone-500 text-base leading-relaxed mb-7">{{ category.description }}</p>
             <ul class="space-y-3">
               <li
                 v-for="item in category.items"
                 :key="item"
-                class="flex items-start gap-3 text-stone-600"
+                class="flex items-start gap-3"
               >
-                <span class="text-emerald-500 mt-1 shrink-0">✓</span>
-                <span>{{ item }}</span>
+                <svg class="w-5 h-5 text-emerald-600 mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-stone-600 text-sm leading-relaxed">{{ item }}</span>
               </li>
             </ul>
           </div>
         </div>
+
       </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-16">
-          <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">
-            Transparent Pricing
-          </p>
-          <h2 class="text-4xl font-bold text-stone-800">Choose Your Plan</h2>
-          <p class="text-stone-500 mt-4 max-w-xl mx-auto text-lg">
-            All plans include private suite, 24/7 staff, housekeeping, and full access to community
-            facilities.
-          </p>
-        </div>
-        <div class="grid md:grid-cols-3 gap-8">
-          <div
-            v-for="plan in plans"
-            :key="plan.name"
-            :class="[
-              'rounded-2xl p-8 shadow-sm border-2 transition',
-              plan.featured
-                ? 'border-emerald-600 bg-emerald-700 text-white'
-                : 'border-stone-100 bg-white text-stone-800',
-            ]"
-          >
-            <p
-              :class="[
-                'text-sm font-semibold uppercase tracking-widest mb-2',
-                plan.featured ? 'text-emerald-200' : 'text-emerald-600',
-              ]"
-            >
-              {{ plan.name }}
-            </p>
-            <p class="text-4xl font-bold mb-1">{{ plan.price }}</p>
-            <p :class="['text-sm mb-6', plan.featured ? 'text-emerald-200' : 'text-stone-400']">
-              per month
-            </p>
-            <ul class="space-y-3 mb-8">
-              <li
-                v-for="feature in plan.features"
-                :key="feature"
-                :class="[
-                  'flex items-start gap-3 text-sm',
-                  plan.featured ? 'text-emerald-100' : 'text-stone-600',
-                ]"
-              >
-                <span :class="plan.featured ? 'text-emerald-300' : 'text-emerald-500'">✓</span>
-                {{ feature }}
-              </li>
-            </ul>
-            <a
-              href="#tour"
-              :class="[
-                'block text-center py-3 rounded-full font-semibold transition',
-                plan.featured
-                  ? 'bg-white text-emerald-700 hover:bg-emerald-50'
-                  : 'bg-emerald-700 text-white hover:bg-emerald-800',
-              ]"
-            >
-              Get Started
-            </a>
-          </div>
-        </div>
-        <p class="text-center text-stone-400 text-sm mt-8">
-          Alberta Seniors Benefit and BC Senior's Supplement accepted. Subsidised plans available.
-          Contact us to discuss your options.
+    <!-- Pricing Section (reused component) -->
+    <PricingSection />
+
+    <!-- Bottom CTA -->
+    <section class="relative py-28 overflow-hidden">
+      <img
+        src="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?w=1600&auto=format&fit=crop&q=80"
+        class="absolute inset-0 w-full h-full object-cover"
+        alt="Caring staff with senior resident"
+      />
+      <div class="absolute inset-0 bg-stone-950/70"></div>
+      <div class="relative z-10 text-center text-white px-6 max-w-3xl mx-auto">
+        <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family:'Playfair Display',serif">
+          Ready to See CareNest in Person?
+        </h2>
+        <p class="text-stone-300 text-xl mb-10 leading-relaxed">
+          Book a no-pressure tour and let us show you what life at CareNest truly feels like.
+          No obligation, just a warm conversation.
         </p>
+        <div class="flex flex-wrap justify-center gap-4">
+          <RouterLink to="/contact"
+            class="bg-emerald-600 hover:bg-emerald-500 text-white px-10 py-4 rounded-full font-bold text-lg transition shadow-lg">
+            Book a Free Tour
+          </RouterLink>
+          <a href="tel:+12505550192"
+            class="bg-white/10 hover:bg-white/20 border border-white/30 text-white px-10 py-4 rounded-full font-semibold text-lg transition backdrop-blur-sm">
+            📞 Call Us Directly
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="py-20 bg-stone-800 text-white text-center px-6">
-      <h2 class="text-4xl font-bold mb-4">Ready to See CareNest in Person?</h2>
-      <p class="text-stone-300 text-lg mb-8 max-w-xl mx-auto">
-        Book a no-pressure tour and let us show you what life at CareNest truly feels like.
-      </p>
-      <RouterLink
-        to="/contact"
-        class="bg-emerald-600 hover:bg-emerald-700 text-white px-10 py-4 rounded-full font-bold text-lg transition"
-      >
-        Book a Tour
-      </RouterLink>
-    </section>
   </main>
 </template>
 
 <script setup>
+import PricingSection from '../components/PricingSection.vue'
+
 const serviceCategories = [
   {
-    icon: '🍽️',
-    title: 'Dining & Nutrition',
+    tag: 'Dining',
+    title: 'Chef-Prepared Daily Dining',
+    description: 'Our culinary team creates nutritious, flavourful meals served in a warm communal dining room. Every meal is an opportunity for connection.',
+    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Three chef-prepared meals daily in communal dining room',
-      'Special dietary and cultural meal accommodations',
-      'Private kitchenette for residents who prefer self-catering',
-      'Snacks and beverages available throughout the day',
-      'In-suite dining available when needed',
-    ],
+      'Three chef-prepared meals served daily',
+      'Cultural and dietary accommodations available',
+      'Private kitchenette for residents who prefer to self-cater',
+      'In-suite dining available when preferred',
+      'Seasonal and local Canadian produce prioritised',
+    ]
   },
   {
-    icon: '🏠',
-    title: 'Residence & Housekeeping',
+    tag: 'Residences',
+    title: 'Private Suites Designed for Real Life',
+    description: 'Every suite is thoughtfully designed to feel like home — private, accessible, and filled with natural light. Your space, completely yours.',
+    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Private suite with personal entrance',
-      'Weekly full housekeeping service',
-      'Linen and laundry service included',
-      'Maintenance team for all repairs',
-      'Broadband internet and cable TV',
-    ],
+      'Private entrance to every suite',
+      'Full kitchenette with modern appliances',
+      'Accessible walk-in bathroom with safety features',
+      'Large windows and personal patio or balcony',
+      'Emergency call system built into every room',
+    ]
   },
   {
-    icon: '🎨',
-    title: 'Lifestyle & Activities',
+    tag: 'Housekeeping',
+    title: 'Housekeeping & Home Maintenance',
+    description: 'A clean, well-maintained home is something everyone deserves. Our housekeeping team handles everything so you can enjoy life.',
+    image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Daily recreational and social programmes',
-      'Art, music, and crafts sessions',
-      'Gentle fitness and mobility classes',
-      'Excursions and group outings',
-      'Spiritual and cultural events',
-    ],
+      'Weekly full housekeeping and linen service',
+      'Laundry service included in all plans',
+      'Dedicated maintenance team for all repairs',
+      'Suite deep-cleaning available on request',
+      'Pest control and building upkeep managed fully',
+    ]
   },
   {
-    icon: '🤝',
-    title: 'Support & Safety',
+    tag: 'Lifestyle',
+    title: 'Activities, Wellness & Social Life',
+    description: 'An active, connected life is one of the greatest gifts. Our full-time lifestyle team curates a rich calendar of events every month.',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop&q=85',
     items: [
-      '24/7 trained staff on-site (non-medical)',
-      'Emergency pull-cord system in every suite',
-      'Secure building access and CCTV',
-      'Coordination with home-care providers',
-      'Memory care and mobility-friendly environment',
-    ],
+      'Daily fitness, yoga, and gentle mobility classes',
+      'Art, photography, and creative arts sessions',
+      'Group outings across BC, Alberta, and Ontario',
+      'Monthly themed community social events',
+      'Guest speakers, cultural programmes, and music nights',
+    ]
   },
   {
-    icon: '🌿',
-    title: 'Outdoor & Community',
+    tag: 'Support',
+    title: '24/7 On-Site Staff & Safety',
+    description: 'Our trained professionals are on-site around the clock — not as wardens, but as trusted community members who are simply there when needed.',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Private patios and balconies per suite',
-      'Landscaped gardens and walking paths',
-      'Vegetable and flower garden areas',
-      'Outdoor seating and social spaces',
-      'Pet-friendly grounds policy',
-    ],
+      '24/7 trained, background-screened staff on site',
+      'Emergency call systems in every suite and bathroom',
+      'Secure building access and CCTV coverage',
+      'Optional coordination with external home-care nurses',
+      'Memory-care and mobility-friendly community design',
+    ]
   },
   {
-    icon: '🚗',
-    title: 'Practical Services',
+    tag: 'Transport',
+    title: 'Transport & Practical Services',
+    description: 'Getting around should never be a source of stress. CareNest provides scheduled transport and a full range of on-site practical services.',
+    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Scheduled transport for medical appointments',
+      'Scheduled transport to medical appointments',
+      'Group shuttle for shopping and excursions',
       'On-site hair and beauty salon',
-      'Library and reading lounge',
-      'Visitor parking and accessible drop-off',
       'Pharmacy delivery coordination',
-    ],
-  },
-]
-
-const plans = [
-  {
-    name: 'Essential',
-    price: 'CA$2,800',
-    featured: false,
-    features: [
-      'Private studio suite',
-      'Daily dining (3 meals)',
-      'Weekly housekeeping',
-      '24/7 staff presence',
-      'Access to all communal areas',
-    ],
-  },
-  {
-    name: 'Comfort',
-    price: 'CA$3,600',
-    featured: true,
-    features: [
-      'Private 1-bedroom suite with patio',
-      'Daily dining + in-suite dining option',
-      'Full housekeeping and laundry',
-      '24/7 staff + care coordination',
-      'Full lifestyle programme access',
-      'Transport to medical appointments',
-    ],
-  },
-  {
-    name: 'Premium',
-    price: 'CA$4,500',
-    featured: false,
-    features: [
-      'Spacious 2-bedroom suite',
-      'All meals + private dining available',
-      'Daily housekeeping',
-      'Priority care coordination',
-      'Personal lifestyle concierge',
-      'All Comfort features included',
-    ],
+      'On-site library, lounge, and visitor parking',
+    ]
   },
 ]
 </script>
