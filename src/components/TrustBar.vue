@@ -9,7 +9,7 @@
         </p>
         <h2 class="text-4xl md:text-5xl font-bold text-stone-800 max-w-3xl mx-auto leading-tight"
           style="font-family:'Playfair Display',serif">
-          Over 400 Canadian Families Trust Us
+          Over 40 Canadian Families Trust Us
           <span class="text-emerald-700"> With What Matters Most</span>
         </h2>
       </div>
@@ -40,7 +40,7 @@
         <div class="relative rounded-3xl overflow-hidden min-h-[520px] shadow-xl">
           <!-- Main photo — verified Unsplash ID of senior couple smiling -->
           <img
-            src="https://images.unsplash.com/photo-1516307365426-bea591f05011?w=800&auto=format&fit=crop&q=85"
+            src="https://images.unsplash.com/photo-1569508926450-cd832544c4ae?w=800&auto=format&fit=crop&q=85"
             alt="Happy senior couple enjoying life at CareNest community"
             class="absolute inset-0 w-full h-full object-cover object-top"
           />
@@ -182,7 +182,7 @@ const pillars = [
 ]
 
 const stats = [
-  { icon: '🏡', value: '400+', label: 'Happy residents across Canada' },
+  { icon: '🏡', value: '56+', label: 'Happy residents across Canada' },
   { icon: '⭐', value: '98%',  label: 'Family satisfaction rate' },
   { icon: '🕐', value: '24/7', label: 'Professional staff on-site' },
   { icon: '📅', value: '15+',  label: 'Years of trusted service' },
