@@ -7,15 +7,33 @@
       <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         <!-- Logo -->
-        <RouterLink to="/" class="flex items-center gap-2 group" aria-label="CareNest Living Home">
-          <div class="w-9 h-9 bg-emerald-700 rounded-xl flex items-center justify-center shadow-sm">
-            <span class="text-white text-lg">🏡</span>
-          </div>
-          <div class="leading-tight">
-            <span class="text-xl font-bold text-emerald-700" style="font-family:'Playfair Display',serif">CareNest</span>
-            <span class="text-xs text-stone-400 font-medium block -mt-1 tracking-widest uppercase">Living</span>
-          </div>
-        </RouterLink>
+<RouterLink to="/" class="flex items-center group" aria-label="CareNest Living Home">
+  <div class="flex items-baseline gap-0.5 select-none">
+    <!-- "Care" in dark serif -->
+    <span
+      class="text-2xl font-bold tracking-tight text-stone-800 group-hover:text-stone-700 transition-colors"
+      style="font-family:'Playfair Display',serif; letter-spacing:-0.5px"
+    >
+      Care
+    </span>
+    <!-- "Nest" in emerald serif -->
+    <span
+      class="text-2xl font-bold tracking-tight text-emerald-700 group-hover:text-emerald-600 transition-colors"
+      style="font-family:'Playfair Display',serif; letter-spacing:-0.5px"
+    >
+      Nest
+    </span>
+    <!-- Separator dot -->
+    <span class="text-emerald-400 mx-1 text-xl font-bold leading-none" aria-hidden="true">·</span>
+    <!-- "Living" in small caps Inter -->
+    <span
+      class="text-xs font-bold text-stone-400 tracking-[0.25em] uppercase self-center group-hover:text-emerald-600 transition-colors"
+      style="font-family:'Inter',sans-serif"
+    >
+      Living
+    </span>
+  </div>
+</RouterLink>
 
         <!-- Desktop Nav -->
         <div class="hidden md:flex items-center gap-8 text-stone-600 font-medium text-sm">

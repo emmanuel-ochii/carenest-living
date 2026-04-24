@@ -1,26 +1,68 @@
 <template>
-  <section class="bg-white border-y border-stone-100 py-10">
+  <section class="bg-stone-900 text-white py-16 overflow-hidden">
     <div class="max-w-7xl mx-auto px-6">
 
-      <!-- Animated Stats Row -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-10 text-center">
-        <div v-for="stat in stats" :key="stat.label" class="group">
-          <p class="text-4xl font-bold text-emerald-700 mb-1" style="font-family:'Playfair Display',serif">
-            {{ stat.value }}
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+
+        <!-- Left: Animated Stats -->
+        <div>
+          <p class="text-emerald-400 text-sm font-semibold uppercase tracking-widest mb-4">
+            By The Numbers
           </p>
-          <p class="text-stone-500 text-sm font-medium">{{ stat.label }}</p>
+          <h2 class="text-3xl font-bold mb-10" style="font-family:'Playfair Display',serif">
+            Trusted by Canadian Families Since 2009
+          </h2>
+          <div class="grid grid-cols-2 gap-6">
+            <div
+              v-for="stat in stats"
+              :key="stat.label"
+              class="border border-stone-700 rounded-2xl p-5 hover:border-emerald-600 transition-colors group"
+            >
+              <p class="text-4xl font-bold text-emerald-400 mb-1 group-hover:text-emerald-300 transition-colors"
+                style="font-family:'Playfair Display',serif">
+                {{ stat.value }}
+              </p>
+              <p class="text-stone-300 text-sm font-medium leading-tight">{{ stat.label }}</p>
+            </div>
+          </div>
         </div>
+
+        <!-- Right: Trust Signals -->
+        <div class="space-y-4">
+          <p class="text-emerald-400 text-sm font-semibold uppercase tracking-widest mb-4">
+            Our Commitments
+          </p>
+          <div
+            v-for="trust in trustSignals"
+            :key="trust.title"
+            class="flex items-start gap-4 bg-stone-800 hover:bg-stone-700 border border-stone-700 hover:border-emerald-700 rounded-xl px-5 py-4 transition-all duration-200 group"
+          >
+            <!-- Icon Circle -->
+            <div class="w-10 h-10 rounded-full bg-emerald-700/30 border border-emerald-600/30 flex items-center justify-center shrink-0 group-hover:bg-emerald-700/50 transition">
+              <span class="text-emerald-400 text-lg leading-none">{{ trust.icon }}</span>
+            </div>
+            <div>
+              <p class="text-white font-semibold text-sm mb-0.5">{{ trust.title }}</p>
+              <p class="text-stone-400 text-xs leading-relaxed">{{ trust.description }}</p>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <!-- Divider -->
-      <div class="border-t border-stone-100 mb-8"></div>
-
-      <!-- Trust Badges Row -->
-      <div class="flex flex-wrap items-center justify-center gap-8">
-        <div v-for="badge in badges" :key="badge.text"
-          class="flex items-center gap-3 bg-stone-50 border border-stone-100 rounded-full px-5 py-2.5">
-          <img :src="badge.icon" :alt="badge.text" class="w-7 h-7 object-contain rounded-full" />
-          <span class="text-stone-600 text-sm font-semibold">{{ badge.text }}</span>
+      <!-- Bottom Strip: Province Badges -->
+      <div class="border-t border-stone-800 mt-14 pt-10 flex flex-wrap items-center justify-between gap-6">
+        <p class="text-stone-400 text-sm font-medium">
+          🇨🇦 &nbsp;Currently serving residents across:
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <span
+            v-for="province in provinces"
+            :key="province"
+            class="bg-stone-800 border border-stone-700 text-stone-300 text-xs font-semibold px-4 py-2 rounded-full tracking-wide hover:border-emerald-600 hover:text-emerald-300 transition-colors cursor-default"
+          >
+            {{ province }}
+          </span>
         </div>
       </div>
 
@@ -30,28 +72,38 @@
 
 <script setup>
 const stats = [
-  { value: '15+', label: 'Years Serving Canadians' },
-  { value: '400+', label: 'Residents Across Canada' },
-  { value: '98%', label: 'Family Satisfaction Rate' },
-  { value: '24/7', label: 'Professional Staff On-Site' },
+  { value: '15+', label: 'Years serving Canadian seniors' },
+  { value: '400+', label: 'Residents across Canada' },
+  { value: '98%', label: 'Family satisfaction rate' },
+  { value: '24/7', label: 'Professional staff on-site' },
 ]
 
-const badges = [
+const trustSignals = [
   {
-    text: 'Canadian Accredited',
-    icon: 'https://images.unsplash.com/photo-1518826778770-a729fb53327c?w=100&auto=format&fit=crop'
+    icon: '🏅',
+    title: 'Accredited Senior Living Provider',
+    description: 'Recognised by the Canadian Senior Living Network for standards of care and resident wellbeing.'
   },
   {
-    text: 'Best of Senior Living 2024',
-    icon: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=100&auto=format&fit=crop'
+    icon: '💳',
+    title: 'Government Subsidy Accepted',
+    description: 'Alberta Seniors Benefit and BC Seniors\' Supplement accepted — we help you navigate the process.'
   },
   {
-    text: 'BC Seniors Supplement Accepted',
-    icon: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=100&auto=format&fit=crop'
+    icon: '🔒',
+    title: 'Privacy & Safety Certified',
+    description: 'Fully compliant with PIPEDA privacy standards and Canadian provincial health and safety regulations.'
   },
   {
-    text: 'Alberta Seniors Benefit Partner',
-    icon: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=100&auto=format&fit=crop'
+    icon: '⭐',
+    title: 'Top-Rated on Google Reviews',
+    description: 'Consistently rated 4.9/5 across all our communities by residents and their families.'
   },
+]
+
+const provinces = [
+  'British Columbia',
+  'Alberta',
+  'Ontario',
 ]
 </script>
