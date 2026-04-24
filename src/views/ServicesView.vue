@@ -27,7 +27,7 @@
         <div class="grid md:grid-cols-2 gap-16 items-center">
           <div class="rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="https://images.unsplash.com/photo-1447452001526-abe8a6bd7ac5?w=900&auto=format&fit=crop&q=85"
+              src="https://images.unsplash.com/photo-1604881991575-dfb1003d8811?w=900&auto=format&fit=crop&q=85"
               class="w-full h-[420px] object-cover"
               alt="Peaceful garden walkway at CareNest community"
             />
