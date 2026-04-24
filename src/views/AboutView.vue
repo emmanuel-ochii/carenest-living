@@ -45,7 +45,7 @@
         </div>
         <div class="rounded-2xl overflow-hidden shadow-lg">
           <img
-            src="https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?w=800&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1608979827489-2b855e79debe?w=800&auto=format&fit=crop"
             class="w-full h-full object-cover"
             alt="Senior resident enjoying outdoors"
           />

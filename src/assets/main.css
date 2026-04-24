@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+/* Global font assignment */
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #1c1917;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Smooth scrolling site-wide */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus ring for accessibility */
+:focus-visible {
+  outline: 3px solid #047857;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Skip to content link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: #047857;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 8px 8px;
+  font-weight: 600;
+  z-index: 9999;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  top: 0;
+}
