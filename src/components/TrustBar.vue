@@ -5,11 +5,11 @@
       <!-- Section Label -->
       <div class="text-center mb-16">
         <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">
-          Why Families Choose CareNest
+          Why Families Choose Sahtú Dene Nechá Kǫ́ Long Term Care
         </p>
         <h2 class="text-4xl md:text-5xl font-bold text-stone-800 max-w-3xl mx-auto leading-tight"
           style="font-family:'Playfair Display',serif">
-          Over 40 Canadian Families Trust Us
+          Over 15 Families Trust Us
           <span class="text-emerald-700"> With What Matters Most</span>
         </h2>
       </div>
@@ -83,7 +83,7 @@
                 </div>
               </div>
               <p class="text-white text-xs ml-3 leading-tight font-medium">
-                Happy residents<br/>across Canada
+                Happy residents<br/>across Sah
               </p>
             </div>
             <p class="text-white text-xl font-bold leading-snug mb-1"

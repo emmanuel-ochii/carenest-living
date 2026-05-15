@@ -22,7 +22,7 @@
         <div class="inline-flex items-center gap-2 bg-emerald-600/20 border border-emerald-500/40 rounded-full px-4 py-2 mb-6">
           <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
           <span class="text-emerald-300 text-sm font-semibold tracking-wide uppercase">
-            Proudly Serving Canadians Since 2009
+            Proudly Serving Sahtu Since 2018
           </span>
         </div>
 
@@ -37,7 +37,7 @@
 
         <!-- Subheading -->
         <p class="text-xl md:text-2xl text-stone-300 leading-relaxed mb-10 max-w-xl">
-          Independent supportive living across Canada — where comfort, dignity, and
+          Independent supportive living across the Sahtú Region — where comfort, dignity, and
           professional care come together in a place that feels like home.
         </p>
 
@@ -56,13 +56,16 @@
         <!-- Trust Indicators -->
         <div class="flex flex-wrap gap-6 text-stone-300 text-sm">
           <span class="flex items-center gap-2">
-            <span class="text-emerald-400 text-lg">✓</span> BC, Alberta & Ontario locations
+            <span class="text-emerald-400 text-lg">✓</span> Norman Wells and Sahtú Communities
           </span>
           <span class="flex items-center gap-2">
-            <span class="text-emerald-400 text-lg">✓</span> Alberta Seniors Benefit accepted
+            <span class="text-emerald-400 text-lg">✓</span> Seniors benefit accepted
           </span>
           <span class="flex items-center gap-2">
-            <span class="text-emerald-400 text-lg">✓</span> 24/7 on-site staff
+            <span class="text-emerald-400 text-lg">✓</span> 24/7  staff care and support.
+          </span>
+          <span class="flex items-center gap-2">
+            <span class="text-emerald-400 text-lg">✓</span> GNWT affiliated, licensed and accredited.
           </span>
         </div>
 
