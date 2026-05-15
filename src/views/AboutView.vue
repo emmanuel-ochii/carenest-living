@@ -14,10 +14,10 @@
         <p class="text-emerald-400 uppercase tracking-widest font-semibold text-sm mb-3">Our Story</p>
         <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight"
           style="font-family:'Playfair Display',serif">
-          About CareNest Living
+          About Sahtú Dene Nechá Kǫ́ Long Term Care
         </h1>
         <p class="text-stone-300 text-xl max-w-xl leading-relaxed">
-          Proudly Canadian. Built on dignity, driven by genuine care.
+          Proudly Northern. Built on dignity, driven by genuine care.
         </p>
       </div>
     </section>
@@ -37,7 +37,7 @@
             </h2>
             <div class="space-y-5 text-stone-500 text-lg leading-relaxed">
               <p>
-                CareNest Living was founded on a single belief: that older Canadians deserve
+                Sahtú Dene Nechá Kǫ́ Long Term Care was founded on a single belief: that our elders deserve
                 to live with full dignity, independence, and professional support — in a place
                 that truly feels like home.
               </p>
@@ -47,7 +47,7 @@
                 proudly Canadian — not a nursing home, not a hospital, but a home that cares.
               </p>
               <p>
-                With communities in British Columbia, Alberta, and Ontario, CareNest Living is
+                With communities in the Sahtú Region, Sahtú Dene Nechá Kǫ́ Long Term Care is
                 here to walk that journey with you and your family — wherever you call home.
               </p>
             </div>
@@ -165,7 +165,7 @@
 
         <div class="text-center mb-16">
           <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">
-            The People Behind CareNest
+            The People Behind Sahtú Dene Nechá Kǫ́ Long Term Care
           </p>
           <h2 class="text-4xl md:text-5xl font-bold text-stone-800 mb-4"
             style="font-family:'Playfair Display',serif">
@@ -260,7 +260,7 @@
         <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-4">Ready to Learn More?</p>
         <h2 class="text-4xl md:text-5xl font-bold text-stone-800 mb-6 leading-tight"
           style="font-family:'Playfair Display',serif">
-          Come See CareNest<br/>
+          Come See Sahtú Dene Nechá Kǫ́<br/>
           <span class="text-emerald-700">for Yourself</span>
         </h2>
         <p class="text-stone-400 text-xl mb-10 leading-relaxed max-w-2xl mx-auto">

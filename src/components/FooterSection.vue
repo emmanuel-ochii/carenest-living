@@ -5,18 +5,18 @@
         <!-- Footer logo -->
         <div class="flex items-baseline gap-0.5 mb-3 select-none">
           <span class="text-2xl font-bold text-white"
-            style="font-family: 'Playfair Display', serif; letter-spacing: -0.5px">Care</span>
+            style="font-family: 'Playfair Display', serif; letter-spacing: -0.5px">Sahtú Dene</span>
           <span class="text-2xl font-bold text-emerald-400"
-            style="font-family: 'Playfair Display', serif; letter-spacing: -0.5px">Nest</span>
+            style="font-family: 'Playfair Display', serif; letter-spacing: -0.5px">Nechá Kǫ́</span>
           <span class="text-emerald-500 mx-1 text-xl font-bold" aria-hidden="true">·</span>
           <span class="text-xs font-bold text-stone-500 tracking-[0.25em] uppercase self-center"
-            style="font-family: 'Inter', sans-serif">Living</span>
+            style="font-family: 'Inter', sans-serif">LTC</span>
         </div>
         <p class="leading-relaxed">
           Independent supportive senior living across Canada — dignified, warm, and always
           professional.
         </p>
-        <p class="mt-4 text-sm text-stone-500">Serving British Columbia, Alberta, and Ontario</p>
+        <p class="mt-4 text-sm text-stone-500">Serving Sahtu Region, Northwest Territories</p>
       </div>
       <div>
         <h4 class="text-white font-semibold mb-3">Quick Links</h4>
@@ -37,14 +37,14 @@
       </div>
       <div>
         <h4 class="text-white font-semibold mb-3">Contact Us</h4>
-        <p>📍 450 Harmony Drive, Kelowna, BC V1Y 6H4</p>
-        <p class="mt-2">📞 +1 (250) 555-0192</p>
-        <p class="mt-2">✉️ hello@carenestliving.ca</p>
-        <p class="mt-4 text-xs text-stone-600">Registered in Canada · GST/HST #123456789</p>
+        <p>📍 P O BOX 190. 26 Woodland Ave, Norman Wells, NT X0E OVO.</p>
+        <p class="mt-2">📞 +1 (867) 587-0192</p>
+        <p class="mt-2">✉️ hello@sahtuliving.ca</p>
+        <p class="mt-4 text-xs text-stone-600">Registered in Canada.</p> 
       </div>
     </div>
     <p class="text-center mt-10 text-stone-600 text-sm">
-      © 2026 CareNest Living Inc. All rights reserved. · Kelowna, BC, Canada
+      © 2026 Sahtú Dene Nechá Kǫ́ Long Term Care. All rights reserved. Norman Wells, Northwest Territories
     </p>
   </footer>
 </template>

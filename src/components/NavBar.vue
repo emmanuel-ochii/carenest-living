@@ -14,14 +14,14 @@
       class="text-2xl font-bold tracking-tight text-stone-800 group-hover:text-stone-700 transition-colors"
       style="font-family:'Playfair Display',serif; letter-spacing:-0.5px"
     >
-      Care
+      Sahtú Dene
     </span>
     <!-- "Nest" in emerald serif -->
     <span
       class="text-2xl font-bold tracking-tight text-emerald-700 group-hover:text-emerald-600 transition-colors"
       style="font-family:'Playfair Display',serif; letter-spacing:-0.5px"
     >
-      Nest
+      Nechá Kǫ́
     </span>
     <!-- Separator dot -->
     <span class="text-emerald-400 mx-1 text-xl font-bold leading-none" aria-hidden="true">·</span>
@@ -30,7 +30,7 @@
       class="text-xs font-bold text-stone-400 tracking-[0.25em] uppercase self-center group-hover:text-emerald-600 transition-colors"
       style="font-family:'Inter',sans-serif"
     >
-      Living
+      LTC
     </span>
   </div>
 </RouterLink>
