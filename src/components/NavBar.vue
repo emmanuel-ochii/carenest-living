@@ -40,6 +40,7 @@
           <RouterLink to="/" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">Home</RouterLink>
           <RouterLink to="/about" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">About</RouterLink>
           <RouterLink to="/services" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">Services</RouterLink>
+          <RouterLink to="/blog" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">Blog</RouterLink>
           <RouterLink to="/locations" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">Locations</RouterLink>
           <RouterLink to="/contact" class="hover:text-emerald-700 transition-colors" active-class="text-emerald-700 font-semibold">Contact</RouterLink>
           <RouterLink to="/contact"
@@ -68,6 +69,7 @@
           <RouterLink @click="menuOpen = false" to="/" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">Home</RouterLink>
           <RouterLink @click="menuOpen = false" to="/about" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">About</RouterLink>
           <RouterLink @click="menuOpen = false" to="/services" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">Services</RouterLink>
+          <RouterLink @click="menuOpen = false" to="/blog" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">Blog</RouterLink>
           <RouterLink @click="menuOpen = false" to="/locations" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">Locations</RouterLink>
           <RouterLink @click="menuOpen = false" to="/contact" class="block py-2 text-stone-700 font-medium hover:text-emerald-700">Contact</RouterLink>
           <RouterLink @click="menuOpen = false" to="/contact"

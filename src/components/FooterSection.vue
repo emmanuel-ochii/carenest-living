@@ -31,6 +31,9 @@
             <RouterLink to="/services" class="hover:text-emerald-400 transition">Services</RouterLink>
           </li>
           <li>
+            <RouterLink to="/blog" class="hover:text-emerald-400 transition">Blog</RouterLink>
+          </li>
+          <li>
             <RouterLink to="/contact" class="hover:text-emerald-400 transition">Contact</RouterLink>
           </li>
         </ul>
