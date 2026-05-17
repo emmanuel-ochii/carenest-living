@@ -68,7 +68,7 @@
               <div class="rounded-2xl overflow-hidden shadow-lg h-56">
                 <img
                   src="https://images.unsplash.com/photo-1624292591580-54245e5f68ff?w=600&auto=format&fit=crop&q=85"
-                  alt="Happy senior couple at CareNest"
+                  alt="Happy senior couple at Sahtú "
                   class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -84,7 +84,7 @@
               <div class="rounded-2xl overflow-hidden shadow-lg h-44">
                 <img
                   src="https://images.unsplash.com/photo-1762955911431-4c44c7c3f408?w=600&auto=format&fit=crop&q=85"
-                  alt="Beautiful garden at CareNest community"
+                  alt="Beautiful garden at Sahtú  community"
                   class="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>

@@ -6,7 +6,7 @@
     <SuitesGallery />
     <ResidencesSection />
     <LifestyleSection />
-    <PricingSection />
+   <!-- <PricingSection /> -->
     <TestimonialsSection />
     <FaqSection />
     <ContactForm />
