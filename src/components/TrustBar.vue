@@ -55,7 +55,7 @@
             <p class="text-stone-700 text-xs font-semibold leading-snug mb-1">
               "The staff feel like family."
             </p>
-            <p class="text-stone-400 text-xs">— James T., Kelowna BC</p>
+            <p class="text-stone-400 text-xs">— James T., Tulita</p>
           </div>
 
           <!-- Bottom content -->
@@ -83,14 +83,14 @@
                 </div>
               </div>
               <p class="text-white text-xs ml-3 leading-tight font-medium">
-                Happy residents<br/>across Sah
+                Happy residents<br/>across Sahtu Region
               </p>
             </div>
             <p class="text-white text-xl font-bold leading-snug mb-1"
               style="font-family:'Playfair Display',serif">
               "Finally, a place that feels like home."
             </p>
-            <p class="text-emerald-300 text-sm font-medium">Dorothy M. — Resident since 2021</p>
+            <p class="text-emerald-300 text-sm font-medium">Dorothy M. — Resident since 2019</p>
           </div>
         </div>
 
@@ -139,10 +139,10 @@
       <div class="bg-emerald-700 rounded-3xl px-8 py-6 flex flex-wrap items-center justify-between gap-4">
         <div>
           <p class="text-white font-bold text-lg" style="font-family:'Playfair Display',serif">
-            🇨🇦 &nbsp;Proudly serving seniors across Canada
+            🇨🇦 &nbsp;Proudly serving seniors across Sahtú
           </p>
           <p class="text-emerald-200 text-sm mt-0.5">
-            Communities in British Columbia · Alberta · Ontario
+            Communities in Sahtú · Northwest Territories
           </p>
         </div>
         <RouterLink
@@ -177,22 +177,21 @@ const pillars = [
   },
   {
     title: 'Government Benefits Accepted',
-    description: 'We work directly with Alberta and BC seniors benefit programs on your behalf.'
+    description: 'We work directly with Government of the Northwest Territories seniors benefit programs on your behalf.'
   },
 ]
 
 const stats = [
-  { icon: '🏡', value: '56+', label: 'Happy residents across Canada' },
+  { icon: '🏡', value: '15+', label: 'Happy residents across Sahtú' },
   { icon: '⭐', value: '98%',  label: 'Family satisfaction rate' },
   { icon: '🕐', value: '24/7', label: 'Professional staff on-site' },
-  { icon: '📅', value: '15+',  label: 'Years of trusted service' },
+  { icon: '📅', value: '5+',  label: 'Years of trusted service' },
 ]
 
 const certs = [
   { icon: '🏅', label: 'CSLA Accredited Provider' },
   { icon: '🔒', label: 'PIPEDA Privacy Compliant' },
-  { icon: '💳', label: 'AB Seniors Benefit Partner' },
-  { icon: '💳', label: 'BC Seniors Supplement Partner' },
-  { icon: '⭐', label: '4.9 / 5 on Google Reviews' },
+  { icon: '💳', label: 'Seniors Benefit Partner' },
+  { icon: '💳', label: 'Northern Seniors' },
 ]
 </script>

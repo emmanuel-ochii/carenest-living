@@ -32,7 +32,7 @@
           <br />
           <span class="text-emerald-400">Your Life.</span>
           <br />
-          Your Way.
+         Your Peace
         </h1>
 
         <!-- Subheading -->

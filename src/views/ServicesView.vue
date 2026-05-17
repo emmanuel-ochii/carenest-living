@@ -16,7 +16,7 @@
           Our Services
         </h1>
         <p class="text-stone-300 text-xl max-w-xl leading-relaxed">
-          Every service at CareNest is designed to support your independence, not replace it.
+          Every service at Sahtú Dene Nechá Kǫ́ is designed to support your independence and daily living not replace it.
         </p>
       </div>
     </section>
@@ -44,7 +44,7 @@
               a safe environment, and caring staff nearby.
             </p>
             <p class="text-stone-500 text-lg leading-relaxed mb-6">
-              At CareNest, <strong class="text-stone-700 font-semibold">we do not provide on-site medical care.</strong>
+              At Sahtú Dene Nechá Kǫ́, <strong class="text-stone-700 font-semibold">we provide on-site medical care.</strong>
               Instead we provide structured lifestyle support — dining, housekeeping, social programming,
               and 24/7 staff presence — while coordinating with external health professionals as needed.
             </p>
@@ -108,7 +108,7 @@
     </section>
 
     <!-- Pricing Section (reused component) -->
-    <PricingSection />
+    <!-- <PricingSection /> -->
 
     <!-- Bottom CTA -->
     <section class="relative py-28 overflow-hidden">
@@ -120,10 +120,10 @@
       <div class="absolute inset-0 bg-stone-950/70"></div>
       <div class="relative z-10 text-center text-white px-6 max-w-3xl mx-auto">
         <h2 class="text-4xl md:text-5xl font-bold mb-6" style="font-family:'Playfair Display',serif">
-          Ready to See CareNest in Person?
+          Ready to See Sahtú Dene Nechá Kǫ́ in Person?
         </h2>
         <p class="text-stone-300 text-xl mb-10 leading-relaxed">
-          Book a no-pressure tour and let us show you what life at CareNest truly feels like.
+          Book a no-pressure tour and let us show you what life at Sahtú Dene Nechá Kǫ́ truly feels like.
           No obligation, just a warm conversation.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
@@ -152,7 +152,7 @@ const serviceCategories = [
     description: 'Our culinary team creates nutritious, flavourful meals served in a warm communal dining room. Every meal is an opportunity for connection.',
     image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Three chef-prepared meals served daily',
+      'Four chef-prepared meals served daily',
       'Cultural and dietary accommodations available',
       'Private kitchenette for residents who prefer to self-cater',
       'In-suite dining available when preferred',
@@ -178,7 +178,7 @@ const serviceCategories = [
     description: 'A clean, well-maintained home is something everyone deserves. Our housekeeping team handles everything so you can enjoy life.',
     image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Weekly full housekeeping and linen service',
+      'Daily full housekeeping and linen service',
       'Laundry service included in all plans',
       'Dedicated maintenance team for all repairs',
       'Suite deep-cleaning available on request',
@@ -191,11 +191,11 @@ const serviceCategories = [
     description: 'An active, connected life is one of the greatest gifts. Our full-time lifestyle team curates a rich calendar of events every month.',
     image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=900&auto=format&fit=crop&q=85',
     items: [
-      'Daily fitness, yoga, and gentle mobility classes',
+      'Daily fitness, yoga, and gentle mobility sessions',
       'Art, photography, and creative arts sessions',
-      'Group outings across BC, Alberta, and Ontario',
+      'Group outings in the community and to local attractions',
       'Monthly themed community social events',
-      'Guest speakers, cultural programmes, and music nights',
+      'Cultural programmes, and movie nights',
     ]
   },
   {
@@ -206,15 +206,14 @@ const serviceCategories = [
     items: [
       '24/7 trained, background-screened staff on site',
       'Emergency call systems in every suite and bathroom',
-      'Secure building access and CCTV coverage',
-      'Optional coordination with external home-care nurses',
-      'Memory-care and mobility-friendly community design',
+      'Regular wellness checks and friendly daily check-ins',
+     'Memory-care and mobility-friendly community design',
     ]
   },
   {
     tag: 'Transport',
     title: 'Transport & Practical Services',
-    description: 'Getting around should never be a source of stress. CareNest provides scheduled transport and a full range of on-site practical services.',
+    description: 'Getting around should never be a source of stress. Sahtú Dene Nechá Kǫ́ provides scheduled transport and a full range of on-site practical services.',
     image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=900&auto=format&fit=crop&q=85',
     items: [
       'Scheduled transport to medical appointments',

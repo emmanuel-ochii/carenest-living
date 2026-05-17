@@ -6,10 +6,10 @@
       <div class="grid md:grid-cols-2 gap-16 items-center mb-16">
         <div>
           <p class="text-emerald-600 font-semibold uppercase tracking-widest text-sm mb-3">Community Life</p>
-          <h2 class="text-4xl font-bold text-stone-800 mb-5">Life at CareNest Is Always Full</h2>
+          <h2 class="text-4xl font-bold text-stone-800 mb-5">Life at Sahtu Is Always Full</h2>
           <p class="text-stone-500 text-lg leading-relaxed">
-            Our lifestyle team curates a rich monthly calendar of activities — from gentle morning
-            yoga to afternoon art sessions, guest speakers, and community outings across Canada.
+            Our recreation team curates a rich monthly calendar of activities — from gentle morning coffee and
+            stretches to afternoon art sessions, games, and community outings.
           </p>
         </div>
         <div class="rounded-2xl overflow-hidden shadow-lg">
@@ -26,8 +26,8 @@
 
         <!-- Calendar Header -->
         <div class="bg-emerald-700 text-white px-8 py-5 flex items-center justify-between">
-          <h3 class="text-xl font-bold">April 2026 — Activity Calendar</h3>
-          <span class="text-emerald-200 text-sm">Kelowna, BC Community</span>
+          <h3 class="text-xl font-bold">May 2026 — Activity Calendar</h3>
+          <span class="text-emerald-200 text-sm">Norman Wells, NT</span>
         </div>
 
         <!-- Days Grid -->
